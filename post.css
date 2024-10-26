@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image:-moz-radial-gradient(10px);
+    background-color: teal;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+ .qweku{ color: white;}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+.sofia:hover{ background-color: tomato; ; border-radius:2px; padding: 10px;}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background:black;
+    color: white;
+}
